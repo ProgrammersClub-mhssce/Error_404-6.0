@@ -358,32 +358,53 @@
       </section> 
 
 <!-- contact section -->
+<!-- <h2 class="heading">contact us</h2> -->
 <section id="contact" class="contact">
-    <h2 class="heading">contact us</h2>
-    <div class="box-container">
-      <div class="box">
-        <div class="form-group">
-          <a href=""><ion-icon name="location-outline"></ion-icon></a>
-          <span>street name, Byculla</span>
+    <div class="container">
+      <div class="content">
+        <div class="left-side">
+          <div class="address details">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="topic">Address</div>
+            <div class="text-one">Stephed Rd, Nagpada</div>
+            <div class="text-two">Mazgaon, Mumbai-08</div>
+          </div>
+          <div class="phone details">
+            <i class="fas fa-phone-alt"></i>
+            <div class="topic">Phone</div>
+            <div class="text-one">+91 98331 65762</div>
+            <div class="text-two">+91 76664 01472</div>
+          </div>
+          <div class="email details">
+            <i class="fas fa-envelope"></i>
+            <div class="topic">Email</div>
+            <div class="text-one">programmersclub@mhssce.ac.in</div>
+            <div class="text-two">hackathon_err404@mhssce.ac.in</div>
+          </div>
         </div>
-  
-        <div class="form-group">
-          <ion-icon name="call-outline"></ion-icon>
-          <span>+91 98331 65762</span>
-        </div>
-  
-        <div class="form-group">
-          <ion-icon name="mail-outline"></ion-icon>
-          <span>programmersclub@mhssce.ac.in</span>
-        </div>
+        <div class="right-side">
+          <div class="topic-text">Send us a message</div>
+          <p>If you have any work from me or any types of quries related to the website, you can send me message from here. It's my pleasure to help you.</p>
+        <form class="gform pure-form pure-form-stacked" method="POST" data-email="hackathon_err404@mhssce.ac.in" action="https://script.google.com/macros/s/AKfycbyoPAWm2teGlzgnJDsZ2NJFgDIZuo3iL9_c0rqYItGL3b3YC0Rnw6bFWLc6YPK_iq8cFA/exec">
+          <div class="input-box">
+            <input id="name" name="name" type="text" placeholder="Enter your name">
+          </div>
+          <div class="input-box">
+            <input id="email" name="email" type="email" placeholder="Enter your email" inputmode="email" >
+          </div>
+          <div class="input-box message-box">
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your Message"></textarea>
+            </div>
+          <div class="button">
+            <button>Send</button>
+          </div>
+          <div style="display:none" class="thankyou_message">
+            <!-- You can customize the thankyou message by editing the code below -->
+            <h2><em>Thanks</em> for contacting us! We will get back to you soon!
+            </h2>
+           </div>
+        </form>
       </div>
-  
-      <div class="box">
-        <input type="text" placeholder="name" />
-        <input type="text" placeholder="email" inputmode="email"/>
-        <input type="text" placeholder="subject" />
-        <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
-        <button>submit</button>
       </div>
     </div>
   </section>
@@ -398,6 +419,7 @@
   <!-- footer section -->
 
     <!-- local js file -->
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
+    <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
   </body>
 </html>
